@@ -1,0 +1,13 @@
+# Translation by Ki Won Kim (http://xyz37.blog.me, xyz37@naver.com)
+ko:
+  label_location: "위치"
+  label_sidebar: "사이드바"
+  label_main_area: "메인 영역"
+  label_show_faces: "프로필 사진 보기<br/>(메인 영역 위치일 때)"
+  label_width: "가로"
+  label_verb_to_display: "보여질 행동"
+  label_like: "좋아요"
+  label_recommend: "추천"
+  label_color_scheme: "색채 조합"
+  label_light: "밝음"
+  label_dark: "회색"

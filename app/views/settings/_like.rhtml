@@ -1,0 +1,20 @@
+<p>
+<%= label_tag('settings[location]', l(:label_location)) %>
+<%= select_tag('settings[location]', options_for_select([[l(:label_sidebar), 'sidebar'], [l(:label_main_area), 'mainarea']], @settings[:location])) %>
+</p>
+<p>
+<%= label_tag('settings[show_faces]', l(:label_show_faces)) %>
+<%= check_box_tag('settings[show_faces]', 1, @settings[:show_faces].to_i == 1) %>
+</p>
+<p>
+<%= label_tag('settings[width]', l(:label_width)) %>
+<%= text_field_tag('settings[width]', @settings[:width], :size => 5) %>
+</p>
+<p>
+<%= label_tag('settings[action]', l(:label_verb_to_display)) %>
+<%= select_tag('settings[action]', options_for_select([[l(:label_like), 'like'], [l(:label_recommend), 'recommend']], @settings[:action])) %>
+</p>
+<p>
+<%= label_tag('settings[colorscheme]', l(:label_color_scheme)) %>
+<%= select_tag('settings[colorscheme]', options_for_select([[l(:label_light), 'light'], [l(:label_dark), 'dark']], @settings[:colorscheme])) %>
+</p>

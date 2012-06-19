@@ -1,0 +1,10 @@
+--- /usr/share/redmine/app/views/news/index.rhtml	2011-05-01 12:03:41.000000000 +0300
++++ index.rhtml	2011-06-10 09:42:31.000000000 +0300
+@@ -35,6 +35,7 @@
+     <div class="wiki">
+     <%= textilizable(news.description) %>
+     </div>
++    <%= call_hook(:view_news_index_left, :news => news) %>
+ <% end %>
+ <% end %>
+ <p class="pagination"><%= pagination_links_full @news_pages %></p>

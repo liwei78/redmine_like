@@ -1,0 +1,11 @@
+--- /usr/share/redmine/app/views/issues/show.rhtml	2011-03-07 21:44:37.000000000 +0200
++++ show.rhtml	2011-06-10 17:27:20.000000000 +0300
+@@ -82,6 +82,8 @@
+ 
+ </div>
+ 
++<%= call_hook(:view_issues_show_bottom, :issue => @issue) %>
++
+ <% if @changesets.present? %>
+ <div id="issue-changesets">
+ <h3><%=l(:label_associated_revisions)%></h3>

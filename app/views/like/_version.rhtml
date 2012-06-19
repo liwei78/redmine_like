@@ -1,0 +1,4 @@
+<% url = request.params[:project_id] ?
+         canonical_url_for(:controller => 'versions', :action => 'show', :project_id => project, :id => version) :
+         canonical_url_for(:controller => 'versions', :action => 'show', :id => version) %>
+<%= render(:partial => 'like/common/facebook', :locals => { :url => url }) %>

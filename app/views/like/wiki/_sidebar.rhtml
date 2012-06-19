@@ -1,0 +1,7 @@
+<% settings = Setting.plugin_like_plugin %>
+<% if settings[:location] == 'sidebar' && page %>
+  <% url = request.params[:action] == 'show' ?
+           canonical_url_for(:controller => 'wiki', :action => 'show', :project_id => project, :id => page.title) :
+           canonical_url_for(:controller => 'wiki', :action => 'index', :id => project, :page => page.title) %>
+  <p><%= render(:partial => 'like/common/facebook', :locals => { :url => url }) %></p>
+<% end %>

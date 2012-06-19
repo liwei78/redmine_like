@@ -1,0 +1,5 @@
+<div class="wiki">
+  <%= textilizable content, :text, :attachments => content.page.attachments %>
+</div>
+
+<%= call_hook(:view_wiki_show_left, :page => content.page) %>

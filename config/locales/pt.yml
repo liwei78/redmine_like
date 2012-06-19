@@ -1,0 +1,12 @@
+pt:
+  label_location: Localização
+  label_sidebar: Barra lateral
+  label_main_area: Área principal
+  label_show_faces: Mostra caras
+  label_width: Largura
+  label_verb_to_display: Verbo a mostrar
+  label_like: Gosto
+  label_recommend: Recomendar
+  label_color_scheme: Tema de cores
+  label_light: Claro
+  label_dark: Escuro

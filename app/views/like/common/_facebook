@@ -1,0 +1,7 @@
+<% attributes = facebook_like_attributes(url, Setting.plugin_like_plugin) %>
+<iframe src="http://www.facebook.com/plugins/like.php?<%= attributes.to_query %>"
+        scrolling="no"
+        frameborder="0"
+        style="border: none; overflow: hidden; width: <%= attributes[:width] %>px; height: <%= attributes[:height] %>px;"
+        allowTransparency="true">
+</iframe>

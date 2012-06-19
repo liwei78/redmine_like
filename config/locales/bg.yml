@@ -1,0 +1,12 @@
+bg:
+  label_location: Разположение
+  label_sidebar: Страничен панел
+  label_main_area: Главна област
+  label_show_faces: Показване на снимка
+  label_width: Ширина
+  label_verb_to_display: Наименование на бутона
+  label_like: Харесва ми
+  label_recommend: Препоръчвам
+  label_color_scheme: Цвят
+  label_light: Светъл
+  label_dark: Тъмен

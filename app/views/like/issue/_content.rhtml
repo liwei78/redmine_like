@@ -1,0 +1,7 @@
+<% settings = Setting.plugin_like_plugin %>
+<% if settings[:location] == 'mainarea' %>
+  <p>
+    <%= render(:partial => 'like/common/facebook',
+               :locals => { :url => canonical_url_for(:controller => 'issues', :action => 'show', :id => issue) }) %>
+  </p>
+<% end %>

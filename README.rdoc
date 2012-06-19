@@ -1,0 +1,18 @@
+This plugin adds Facebook Like button to the start page, project "Overview" page, Wiki pages, news, versions, roadmap and issues.
+
+The look and feel of the button and its location (main area or side bar) can be configured in the plugin settings ("Administration" » "Plugins" » "Configure").
+
+Installation notes
+
+Copy "like" directory to "#{RAILS_ROOT}/vendor/plugins".
+Restart Redmine.
+
+Author:	Andriy Lesyuk
+Website:	http://projects.andriylesyuk.com/projects/redmine-like
+Code repository:	http://subversion.andriylesyuk.com/redmine-like
+Registered on:	2011-03-24 (大约一年 ago)
+Current version:	 0.0.4
+Compatible with:	 Redmine 1.0.x, 1.1.x, 1.2.x, 1.3.x
+
+Fix:
+2012-6-19 liwei fixed
